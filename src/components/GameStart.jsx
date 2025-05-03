@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const GameStart = (props) => {
     return <Container>
         <div>
-            <img src="../../dices.png" alt="" height={500}/>
+            <img src="images/dices.png" alt="" height={500}/>
         </div>
         <div className="content">
             <h1>Dice Game</h1>
