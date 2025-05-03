@@ -45,22 +45,28 @@ const GamePlay = () => {
 
   return (
     <main>
-        <Main>
-           <TotalScore score={finalScore}/>
-           <NumberSelector setErrorMessage={setErrorMessage} selectedNumber={selectedNumber} setSelectedNumber={setSelectedNumber} errorMessage={errorMessage} setanswerChecker={setanswerChecker} />
-        </Main>
-        <RollDice currentDice={currentDice} afterRolling={afterRolling} answerChecker={answerChecker} />
-        <Btns >
-           <WhiteButton onClick={resetScore}>Reset Score</WhiteButton>
-           <Button onClick={() => setShowRules((prev) => !prev)}>{showRules?"Hide": "Show"} Rules</Button>
-        </Btns>
-        {showRules&&<Rules />}
+        <PageContainer>
+            <Main>
+                <TotalScore score={finalScore}/>
+                <NumberSelector setErrorMessage={setErrorMessage} selectedNumber={selectedNumber} setSelectedNumber={setSelectedNumber} errorMessage={errorMessage} setanswerChecker={setanswerChecker} />
+            </Main>
+            <RollDice currentDice={currentDice} afterRolling={afterRolling} answerChecker={answerChecker} />
+            <Btns >
+                <WhiteButton onClick={resetScore}>Reset Score</WhiteButton>
+                <Button onClick={() => setShowRules((prev) => !prev)}>{showRules?"Hide": "Show"} Rules</Button>
+            </Btns>
+            {showRules&&<Rules />}
+        </PageContainer>
     </main>
     
   )
 }
 
 export default GamePlay;
+
+const PageContainer = styled.div`
+    padding: 0 0 2% 0;
+`
 
 const Main = styled.div`
     padding-top: 60px;
@@ -72,13 +78,13 @@ const Main = styled.div`
 `
 const Btns = styled.div`
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        max-width:40%;
-        margin: 0 auto;
-        margin-top: 40px;
-        gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width:40%;
+    margin: 0 auto;
+    margin-top: 40px;
+    gap: 10px;
 
 `
