@@ -10,10 +10,8 @@ Experience the game live:
 ## 🛠️ Features
 
 - 🎮 Interactive dice rolling mechanism.
-- 🧑‍🤝‍🧑 Two-player gameplay.
 - 📈 Real-time score tracking.
 - 🔄 Option to reset the game and start over.
 - 🎨 Responsive design for various devices.
 
-## 📁 Project Structure
 
