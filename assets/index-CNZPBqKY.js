@@ -75,7 +75,7 @@ Error generating stack: `+e.message+`
         color: white;
         border: 1px solid transparent;
     }
-`,Cv=c=>tt.jsxs(Bv,{children:[tt.jsx("div",{children:tt.jsx("img",{src:"../../dices.png",alt:"",height:500})}),tt.jsxs("div",{className:"content",children:[tt.jsx("h1",{children:"Dice Game"}),tt.jsx(or,{onClick:c.toggle,children:"Play Now"})]})]}),Bv=xl.div`
+`,Cv=c=>tt.jsxs(Bv,{children:[tt.jsx("div",{children:tt.jsx("img",{src:"images/dices.png",alt:"",height:500})}),tt.jsxs("div",{className:"content",children:[tt.jsx("h1",{children:"Dice Game"}),tt.jsx(or,{onClick:c.toggle,children:"Play Now"})]})]}),Bv=xl.div`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,7 +130,7 @@ Error generating stack: `+e.message+`
     background-color: ${c=>c.isselected?"black":"white"};
     color: ${c=>c.isselected?"white":"black"};
     cursor: pointer;
-`,Vv=c=>tt.jsxs(Lv,{children:[tt.jsx("p",{children:c.answerChecker}),tt.jsx("img",{src:`../../Dice/dice_${c.currentDice}.png`,alt:"dice 1",onClick:c.afterRolling}),tt.jsx("h3",{children:"Click on Dice to Roll"})]}),Lv=xl.div`
+`,Vv=c=>tt.jsxs(Lv,{children:[tt.jsx("p",{children:c.answerChecker}),tt.jsx("img",{src:`images/dice_${c.currentDice}.png`,alt:"dice 1",onClick:c.afterRolling}),tt.jsx("h3",{children:"Click on Dice to Roll"})]}),Lv=xl.div`
     margin-top: 50px;
     display: flex;
     flex-direction: column;
