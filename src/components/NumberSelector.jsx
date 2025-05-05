@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import React from 'react'
-=======
-import React, { useState } from 'react'
->>>>>>> cc91b56bde9dcb2bb99c06e01193105378de875d
 import styled from 'styled-components';
 
 const NumberSelector = (props) => {
@@ -51,13 +47,10 @@ const NumberSelectorContainer = styled.div`
     .flexContainer{
         display: flex;
         gap: 20px;
-<<<<<<< HEAD
 
         @media (max-width: 400px){
             gap: 5px
         }
-=======
->>>>>>> cc91b56bde9dcb2bb99c06e01193105378de875d
     }
     p{
         font-size: 20px;

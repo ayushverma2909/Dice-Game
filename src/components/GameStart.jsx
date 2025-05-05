@@ -22,7 +22,6 @@ const Container = styled.div`
     justify-content: center;
     height: 100vh;
 
-<<<<<<< HEAD
     @media (max-width: 800px){
        
         display: flex;
@@ -39,23 +38,18 @@ const Container = styled.div`
         }
     }
 
-=======
->>>>>>> cc91b56bde9dcb2bb99c06e01193105378de875d
     
     .content{
         h1{
             font-size: 96px;
             white-space: nowrap;
         }
-<<<<<<< HEAD
 
         @media (max-width: 800px){
             h1{
             font-size: 48px;
         }
         }
-=======
->>>>>>> cc91b56bde9dcb2bb99c06e01193105378de875d
     }
 
 `

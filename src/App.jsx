@@ -12,10 +12,6 @@ function App() {
 
   return (
     <>
-<<<<<<< HEAD
-    
-=======
->>>>>>> cc91b56bde9dcb2bb99c06e01193105378de875d
     {gameStarted?<GamePlay/>:<GameStart toggle={toggleGameplay}/>}
       
     </>
