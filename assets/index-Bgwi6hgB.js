@@ -81,11 +81,33 @@ Error generating stack: `+e.message+`
     justify-content: center;
     height: 100vh;
 
+    @media (max-width: 800px){
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+
+        
+
+        img{
+            height: 250px;
+        }
+    }
+
     
     .content{
         h1{
             font-size: 96px;
             white-space: nowrap;
+        }
+
+        @media (max-width: 800px){
+            h1{
+            font-size: 48px;
+        }
         }
     }
 
@@ -113,6 +135,10 @@ Error generating stack: `+e.message+`
     .flexContainer{
         display: flex;
         gap: 20px;
+
+        @media (max-width: 400px){
+            gap: 5px
+        }
     }
     p{
         font-size: 20px;
@@ -160,6 +186,11 @@ Error generating stack: `+e.message+`
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    @media (max-width: 600px){
+        display: flex;
+        flex-direction: column;
+    }
 
     
 `,Wv=Ol.div`
