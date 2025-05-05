@@ -74,11 +74,14 @@ const Main = styled.div`
     justify-content: space-around;
     align-items: center;
 
+<<<<<<< HEAD
     @media (max-width: 600px){
         display: flex;
         flex-direction: column;
     }
 
+=======
+>>>>>>> cc91b56bde9dcb2bb99c06e01193105378de875d
     
 `
 const Btns = styled.div`
